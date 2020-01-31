@@ -115,7 +115,7 @@ if (musuh1!==null) {
     buttonMusuh1.style.height='50px';
     buttonMusuh1.style.borderRadius='10px';
     buttonMusuh1.style.padding='10px';
-    buttonMusuh1.style.margin='0px 30px 0px 30px';
+    buttonMusuh1.style.margin='30px';
     
     function gerakMusuh1() {
         let elemen = document.getElementById("musuh1");   
@@ -176,7 +176,7 @@ if (musuh2!==null) {
     buttonMusuh2.style.height='50px';
     buttonMusuh2.style.borderRadius='10px';
     buttonMusuh2.style.padding='10px';
-    buttonMusuh2.style.margin='0px 30px 0px 30px';
+    buttonMusuh2.style.margin='30px';
     
     function gerakMusuh2() {
       let elemen = document.getElementById("musuh2");  
@@ -236,7 +236,7 @@ if(musuh3!==null) {
     buttonMusuh3.style.height='50px';
     buttonMusuh3.style.borderRadius='10px';
     buttonMusuh3.style.padding='10px';
-    buttonMusuh3.style.margin='0px 30px 0px 30px';
+    buttonMusuh3.style.margin='30px';
     function gerakMusuh3() {
         let elemen = document.getElementById("musuh3");   
         let kolom= lokasiKolomMusuh3*65-65;
@@ -295,7 +295,7 @@ if (musuh4!==null) {
     buttonMusuh4.style.height='50px';
     buttonMusuh4.style.borderRadius='10px';
     buttonMusuh4.style.padding='10px';
-    buttonMusuh4.style.margin='0px 30px 0px 30px';
+    buttonMusuh4.style.margin='30px';
     function gerakMusuh4() {
       let elemen = document.getElementById("musuh4");   
       let baris= lokasiBarisMusuh4*65-65; 
