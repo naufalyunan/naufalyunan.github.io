@@ -8,3 +8,7 @@ sampai jumpa di safe zone!
 
 
 Naufal
+
+NOTES!
+*)Tombol Gerakkan Semua Bot hanya berfungsi apabila bot = 4, jika tidak setiap bot harus digerakkan satu-satu.
+
