@@ -66,9 +66,10 @@ body{
     text-align: center;
     padding:20px;
     border-radius: 10px;
+    overflow: scroll;
 }
 #kontenModal p{
-    font-size: 12px;
+    font-size: 15px;
     margin:20px;
     line-height: 1.5;
 }
@@ -109,9 +110,10 @@ body{
     text-align: center;
     padding:20px;
     border-radius: 10px;
+    overflow: scroll;
 }
 #kontenModalMenang p{
-    font-size: 12px;
+    font-size: 15px;
     margin:50px;
     line-height: 1.5;
 }
@@ -152,9 +154,10 @@ body{
     text-align: center;
     padding:20px;
     border-radius: 10px;
+    overflow: scroll;
 }
 #kontenModalKalah p{
-    font-size: 12px;
+    font-size: 15px;
     margin:50px;
     line-height: 1.5;
     
