@@ -342,7 +342,7 @@ let semuaMusuh=document.createElement('p');
     buttonsemuaMusuh.style.height='50px';
     buttonsemuaMusuh.style.borderRadius='10px';
     buttonsemuaMusuh.style.padding='10px';
-    buttonsemuaMusuh.style.margin='0px 30px 0px 30px';
+    buttonsemuaMusuh.style.margin='30px';
 
 
 //atur start dan end dan mekanik musuh

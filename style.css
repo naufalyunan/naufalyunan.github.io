@@ -69,11 +69,11 @@ body{
 }
 #kontenModal p{
     font-size: 20px;
-    margin:10px;
+    margin:25px;
     line-height: 1.5;
 }
 #judulModal{
-    margin:10px;
+    margin:25px;
     padding: 0px 10px;
 }
 #buttonModal{
@@ -112,11 +112,11 @@ body{
 }
 #kontenModalMenang p{
     font-size: 20px;
-    margin:10px;
+    margin:50px;
     line-height: 1.5;
 }
 #judulModalMenang{
-    margin:10px;
+    margin:50px;
     padding: 0px 10px;
 }
 #buttonModalMenang{
@@ -155,11 +155,12 @@ body{
 }
 #kontenModalKalah p{
     font-size: 20px;
-    margin:10px;
+    margin:50px;
     line-height: 1.5;
+    
 }
 #judulModalKalah{
-    margin:10px;
+    margin:50px;
     padding: 0px 10px;
 }
 #buttonModalKalah{
