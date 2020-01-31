@@ -68,7 +68,7 @@ body{
     border-radius: 10px;
 }
 #kontenModal p{
-    font-size: 15px;
+    font-size: 12px;
     margin:20px;
     line-height: 1.5;
 }
@@ -111,7 +111,7 @@ body{
     border-radius: 10px;
 }
 #kontenModalMenang p{
-    font-size: 20px;
+    font-size: 12px;
     margin:50px;
     line-height: 1.5;
 }
@@ -154,7 +154,7 @@ body{
     border-radius: 10px;
 }
 #kontenModalKalah p{
-    font-size: 20px;
+    font-size: 12px;
     margin:50px;
     line-height: 1.5;
     
