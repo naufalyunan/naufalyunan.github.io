@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div id="modalKalah">
+        <div id='kontenModalKalah'>
+            <h2 id="judulModalKalah">TJELAKA!</h2>
+            <p>Pasoekan bantoean dari Divisi V Banjoemas telah dikalahken Kumpeni!<br>
+                Padoeka Jang Moelia dan seloeroeh rakjat berdoeka.<br>
+                noenoe oli, noenoe seli, noenoe karipatoe, patoe kari noenoe.<br>
+                <!-- saya katakan kepada kamu sekalian (bahwa) saya adalah beringin besar dan 
+                setiap beringin besar akan tumbang tapi beringin lain akan menggantinya (demikian pula) 
+                saya katakan kepada kamu sekalian (bahwa) saya adalah batu besar dan setiap batu besar 
+                akan terguling tapi batu lain akan menggantinya -->
+                Toehan dan Rakjat bersama kita,<br>
+                Merdeka!
+            </p>
+            <button id='buttonModalKalah' onclick="reset()">Oelangi Permainan</button>
+        </div>
+        <audio id='musikKalah' >Your browser does not support audio</audio>
+    </div>
+    <div id="modalMenang">
+        <div id='kontenModalMenang'>
+            <h2 id="judulModalMenang">Selamat!</h2>
+            <p>Boeng telah berhasil mendjalankan perintah dengan sigap dan tjepat!<br>
+                Padoeka Jang Moelia Boeng Besar Soekarno turut bersuka tjita.<br>
+                Semoga kita dapat segera merdeka dan mewoejoedkan Indonesia yang ma'moer.<br>
+                Toehan dan Rakjat bersama kita,<br>
+                Merdeka!
+            </p>
+            <button id='buttonModalMenang' onclick="reset()">Oelangi Permainan</button>
+        </div>
+        <audio id='winningMusic'src="./music/bersukaRia.mp3">Your browser does not support audio</audio>
+    </div>
+    <div id="modal">
+        <div id='kontenModal'>
+            <h2 id="judulModal">Selamat Pagi Kolonel Soedirman!</h2>
+            <p>Berikoet meroepakan telegram rahasia sesuai ma'loemat Letnan Djenderal Oerip Soemohardjo.<br>
+                Boeng diminta oentoek memindahken pasoekan dari Banjoemas menoejoe Soerabadja oentoek konsolidasi lebih landjoet.<br>
+                Pemindahan pasoekan harap dilaksanaken sesingkat-singkatnja dalam koerang dari 50 langkah.<br>
+                Harap waspada terhadap pergerakan pasoekan NICA.<br>
+                Toehan dan Rakjat bersama kita,<br>
+                Merdeka!
+            </p>
+            <button id='buttonModal' onclick="closeTelegram()">Siap! laksanaken</button>
+        </div>
+        <audio id='openingMusic'src="./music/marsTNI.mp3">Your browser does not support audio</audio>
+    </div>
+    <h1 id="judul">Pindahken Kekoeatan Pasoekan</h1>
+    <audio id='startGameMusic'src="./music/StartGame.mp3">Your browser does not support audio</audio>
+    <div id="boundary">
+    </div>
+    <div id='forButton'>
+
+    </div>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>

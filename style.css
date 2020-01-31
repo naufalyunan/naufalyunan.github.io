@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    border:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:url('./img/background.png') ;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+#judul{
+    text-align: center;
+    color: goldenrod;
+    margin:10px;
+    padding:10px;
+}
+
+#boundary{
+    border: 1px solid black;
+    height: 650px;
+    width: 650px;
+    background-image: url("./img/Map.jpeg");
+    background-size: cover;
+    position: relative;
+    /* margin:0% 30% 0% 30%; */
+    left:50%;
+    transform: translate(-50%);
+}
+#forButton{
+    border: 1px dashed green;
+    display:flex;
+    width: 650px;
+    align-items: center;
+    justify-content: center;
+    /* margin:50px 0px; */
+    left:50% ;
+    transform: translate(-50%);
+    position: relative;
+}
+
+#modal{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    background-color:grey;
+    opacity: 0.8;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#kontenModal{
+    height:55vh;
+    width:50vw;
+    position: absolute;
+    background-color: orange;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+}
+#kontenModal p{
+    font-size: 20px;
+    margin:10px;
+    line-height: 1.5;
+}
+#judulModal{
+    margin:10px;
+    padding: 0px 10px;
+}
+#buttonModal{
+    height: 40px;
+    width:150px;
+    margin: 10px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+
+
+
+
+#modalMenang{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    background-color:grey;
+    opacity: 0.8;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#kontenModalMenang{
+    height:35vh;
+    width:50vw;
+    position: absolute;
+    background-color: red;
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+}
+#kontenModalMenang p{
+    font-size: 20px;
+    margin:10px;
+    line-height: 1.5;
+}
+#judulModalMenang{
+    margin:10px;
+    padding: 0px 10px;
+}
+#buttonModalMenang{
+    height: 40px;
+    width:150px;
+    margin: 10px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+
+
+
+
+#modalKalah{
+    height:100vh;
+    width: 100vw;
+    position: absolute;
+    background-color:grey;
+    opacity: 0.8;
+    display:none;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+
+#kontenModalKalah{
+    height:35vh;
+    width:50vw;
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.712);
+    text-align: center;
+    padding:20px;
+    border-radius: 10px;
+}
+#kontenModalKalah p{
+    font-size: 20px;
+    margin:10px;
+    line-height: 1.5;
+}
+#judulModalKalah{
+    margin:10px;
+    padding: 0px 10px;
+}
+#buttonModalKalah{
+    height: 40px;
+    width:150px;
+    margin: 10px;
+    padding:5px;
+    font-size: 15px;
+    border-radius: 15px;
+}
+
+
